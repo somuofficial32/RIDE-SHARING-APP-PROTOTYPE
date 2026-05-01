@@ -1,52 +1,9 @@
-# Taxi Ride-Sharing Mobile Application (Kotlin)
+*COMPANY:* CODTECH IT SOLUTIONS
+*NAME:* SOMYA JYOTIRMAYA PANDA 
+*INTERN ID:* CTIS7598 
+*DOMAIN:* APP DEVELOPMENT 
+*DURATION:* 4 WEEKS 
+*MENTOR:* NEELA SANTOSH
 
 
-## Getting Started
-
-### About our app
-This app aims to provide a well-designed user-interface and appropriate functionalities, so that the members in HKUST community like students, faculty and staff can easily find people to share taxis when they travel between MTR Stations and HKUST and thus save on transportation costs.
-
-### Features
-* Filter Options
-* Auto Matching
-* Travel Fees Estimation
-* Real-time Chat Room
-* Authentication
-
-### Prerequisites
-
-* Android SDK 26
-* Kotlin Version 1.2.10
-* Android Build Tools v27.0.3
-* Android Support Repository
-
-### Built With
-
-* [Android Studio](https://developer.android.com/studio/) - Tools for Android Development
-* [Maven](https://maven.apache.org/) - Dependency Management
-
-### Clone the Repository
-
-cloning the project to your computer:
-```
-$ git://github.com/henryszex42s/ride_sharing_aos_kotlin.git
-```
-
-### Run project in Android Studio
-
-1. In Android Studio, File -> Open -> Select the project directory
-
-2. Build -> Make Project, It will start to compile the project
-
-**NOTE:** You need to use Android emulator which can be downloaded from Android Studio or an Android device to run the project
-
-
-
-## Authors
-
-* **Sze Wan Yiu**   - *Android Version* - [Github](https://github.com/henryszex42s)
-* **Shat Ka Him**   - *Android Version* - [Github](https://github.com/him428)
-* **Au Kai Hong**   - *IOS Version* - [Github](https://github.com/tommyau95)
-* **Liu Kin Chung** - *IOS Version* - [Github](https://github.com/hkkcliu)
-
-
+The Development Environment and IDEThe primary integrated development environment (IDE) used for this project is Android Studio. The project structure is heavily influenced by the IntelliJ platform, as evidenced by the .idea/ configuration directory and *.iml module files. These files manage internal project settings, such as workspace layouts and library dependencies, which are essential for the IDE to function correctly. The README.md explicitly instructs users to open the project directory directly within Android Studio to begin the compilation process.  Programming Languages and VersioningThis application is developed using the Kotlin programming language, specifically version 1.2.10. The project utilizes a modern development stack that includes Android Build Tools v27.0.3 and targets the Android SDK 26. The build.gradle file confirms that the Kotlin Gradle Plugin is a core dependency, ensuring that the Kotlin code is compiled efficiently during the build process. Additionally, the project is managed using Git for version control, allowing multiple authors to collaborate on the Android and iOS versions of the platform.  Build Automation and Dependency ManagementThe project employs Gradle as its primary build automation tool. It includes cross-platform startup scripts, such as gradlew for Unix-based systems and gradlew.bat for Windows, to ensure that the build environment remains consistent for all developers. For dependency management, the project relies on multiple repositories, including Google, JCenter, and JitPack. The gradle.properties file is configured with specific JVM arguments, such as -Xmx1536m, to allocate sufficient memory for the Gradle daemon process during heavy compilation tasks.  Core Features and Technical IntegrationThe application is designed with several advanced features that require specific technical integrations:Authentication and Cloud Services: The project uses Google Services (version 3.1.1) to handle secure user authentication.  Real-time Functionality: The app includes a real-time chat room and auto-matching capabilities to facilitate communication between passengers.  Financial Tools: It provides a travel fees estimation feature to help users calculate potential savings.  Filtering: Users can apply specific filter options to find the most suitable ride-sharing partners.  Practical Application and Social ImpactThe Taxi Ride-Sharing Mobile Application is specifically designed for the HKUST community, including students, faculty, and staff. Its primary goal is to provide a user-friendly interface that helps community members find ride-sharing partners when traveling between MTR Stations and the university campus. This task is highly applicable for reducing individual transportation costs and promoting sustainable travel habits within a university ecosystem.  Technical Summary of SpecificationsThe following paragraph summarizes the technical foundations of the project. The app is a Kotlin-based mobile platform built with Android Studio and Gradle. It integrates Maven for dependency management and requires an Android emulator or physical device for testing. By utilizing a combination of real-time chat, fee estimation, and auto-matching, the project offers a robust solution for carpooling within a specific geographical area. The collaborative nature of the project is highlighted by its multi-author team, which has developed versions for both Android and iOS platforms. 
